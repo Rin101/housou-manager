@@ -1,13 +1,175 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap");
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", "M PLUS 1p", "M PLUS Rounded 1c", sans-serif,
+    -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* =================================================================== */
+
+.date {
+  margin: 50px 0 20px 50px;
+}
+
+.mychecksheet {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 50px;
+  padding: 25px;
+  -webkit-box-shadow: 7px 5px 5px 5px rgba(0, 0, 0, 0),
+    0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+  box-shadow: 7px 34px 5px 5px rgba(0, 0, 0, 0),
+    0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+  border-radius: 15px;
+}
+
+.mychecksheet > * {
+  margin: 6px 0;
+}
+
+.cards-container {
+  /* display: grid; */
+  display: flex;
+}
+
+.subject-card {
+  height: 110px;
+  width: 120px;
+  border-radius: 10px;
+  margin: 5px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 3px;
+  box-shadow: 7px 34px 5px 5px rgba(0, 0, 0, 0),
+    0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+}
+
+.subject-title {
+  margin: 0 0 8px 0;
+}
+
+.subject-title p {
+  font-size: 12px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.card-line {
+  height: 1.8px;
+  width: 70%;
+  margin: 0 auto;
+  background-color: #3281ba;
+}
+
+.card-counter {
+  display: flex;
+  margin: 8px 0 0 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-counter p {
+  font-size: 20px;
+  font-weight: bold;
+  width: 30px;
+  text-align: center;
+}
+
+.card-counter i {
+  margin: 0 7px;
+  font-size: 10px;
+}
+
+/* ============================================================ */
+
+.progress-bars {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px 30px;
+}
+
+.progress-bars > div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.timestamps {
+  width: 70%;
+  height: 10px;
+  margin: 3px 0;
+}
+
+.timestamps > p {
+  font-size: 5px;
+}
+
+#myProgressTimestamps {
+  position: relative;
+}
+
+#myProgressTimestamps > p {
+  position: absolute;
+  top: 0;
+}
+
+#scheduleTimestamps {
+  position: relative;
+}
+
+#scheduleTimestamps > p {
+  position: absolute;
+  top: 0;
+}
+
+.bar {
+  width: 70%;
+  height: 16px;
+  background-color: #c4c4c4;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.bar > div {
+  height: 16px;
+  width: 25%;
+  background-color: #bfedaf;
+  border-radius: 16px;
+}
+
+#myProgress > * {
+  margin-bottom: 5px;
+}
+
+#myProgress > .bar {
+  position: relative;
+}
+
+#myProgress > .bar > div {
+  background-color: #4fabee;
+}
+
+.todayBar {
+  height: 100%;
+  width: 2px;
+  background-color: #3281ba;
+  position: absolute;
+  top: 0;
 }
