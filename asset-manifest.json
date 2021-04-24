@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/housou-manager/static/css/main.415f9286.chunk.css",
-    "main.js": "/housou-manager/static/js/main.4eb259af.chunk.js",
-    "main.js.map": "/housou-manager/static/js/main.4eb259af.chunk.js.map",
+    "main.css": "/housou-manager/static/css/main.99c31cca.chunk.css",
+    "main.js": "/housou-manager/static/js/main.f93c5782.chunk.js",
+    "main.js.map": "/housou-manager/static/js/main.f93c5782.chunk.js.map",
     "runtime-main.js": "/housou-manager/static/js/runtime-main.c8467789.js",
     "runtime-main.js.map": "/housou-manager/static/js/runtime-main.c8467789.js.map",
     "static/js/2.6df5b470.chunk.js": "/housou-manager/static/js/2.6df5b470.chunk.js",
     "static/js/2.6df5b470.chunk.js.map": "/housou-manager/static/js/2.6df5b470.chunk.js.map",
     "index.html": "/housou-manager/index.html",
-    "static/css/main.415f9286.chunk.css.map": "/housou-manager/static/css/main.415f9286.chunk.css.map",
+    "static/css/main.99c31cca.chunk.css.map": "/housou-manager/static/css/main.99c31cca.chunk.css.map",
     "static/js/2.6df5b470.chunk.js.LICENSE.txt": "/housou-manager/static/js/2.6df5b470.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c8467789.js",
     "static/js/2.6df5b470.chunk.js",
-    "static/css/main.415f9286.chunk.css",
-    "static/js/main.4eb259af.chunk.js"
+    "static/css/main.99c31cca.chunk.css",
+    "static/js/main.f93c5782.chunk.js"
   ]
 }
