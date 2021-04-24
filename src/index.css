@@ -7,11 +7,11 @@
   padding: 0;
   box-sizing: border-box;
   -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Old versions of Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none;
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 
 body {
@@ -26,6 +26,7 @@ body {
 
 .date {
   margin: 50px 0 20px 50px;
+  font-weight: bold;
 }
 
 .mychecksheet {
@@ -45,11 +46,13 @@ body {
 }
 
 .cards-container {
-  /* display: grid; */
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .subject-card {
+  background-color: white;
   height: 110px;
   width: 120px;
   border-radius: 10px;

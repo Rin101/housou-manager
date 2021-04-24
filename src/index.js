@@ -81,7 +81,6 @@ function Checksheet() {
             textLength = baseSize - 2
           }
           const fontSize = baseSize - textLength
-          console.log(fontSize)
           return `${fontSize}px`
         }
         
@@ -89,7 +88,6 @@ function Checksheet() {
           <div className="subject-card" key={subject}>
             <div className="subject-title">
               <p style={{fontSize: getFontSize(subject.length)}}>{subject}</p>
-              {/* <p>{subject}</p> */}
             </div>
             <div className="card-line"></div>
             <div className="card-counter">
@@ -122,7 +120,7 @@ function Checksheet() {
             <div className="cards-container">
               <SubjectCards />
             </div>
-            <p>{ myTotal } out of { goalNum } read through: { myProgressString }</p>
+            {/* <p>{ myTotal } out of { goalNum } read through: { myProgressString }</p> */}
           </div>
         </div>
         <div className="progress-bars">
